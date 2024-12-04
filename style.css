@@ -47,7 +47,7 @@ h1 {
 }
 
 p {
-  font-size: 1rem ;
+  font-size: 1.3rem ;
   padding: 20px 0px 0 20px;
   font-family: 'Courier New', Courier, monospace;
 }
@@ -83,6 +83,7 @@ p {
     padding: 30px;
     border-radius: 5px;
     border: 1px solid white;
+    
 }
 
 
@@ -102,6 +103,7 @@ p {
     font-family: sans-serif;
     padding-bottom: 10px;
     color: var(--clr-offgrey);
+    font-family: 'Courier New', Courier, monospace;
     
   }
   
@@ -114,6 +116,7 @@ p {
     outline: none;
     border-radius: 5px;
     color: var(--clr-dark);
+        font-family: 'Courier New', Courier, monospace;
   /*   border-bottom: none; */
   /* outline: 1px solid var(--clr-error); */
   }
