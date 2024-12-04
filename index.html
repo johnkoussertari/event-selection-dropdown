@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ticket Tailor Form</title>
+
+    <meta name="description" content="Form filter event option.">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+
+
+
+
+
+    <div class="container">
+    
+    <h1>Ticket Tailor Form</h1>
+
+    <p>Customer Order Search:</p>
+    <form action="event-results.html">
+
+
+
+        <div class="events-form">
+    
+            <label for="tickets">Search Events...</label>
+            
+            <input list="events" id="myEvent" type="text" placeholder="Select Events">
+            
+            
+            
+            <datalist id="events" autocomplete="off">
+                <option name="event" value="All events"></option>  
+                <option name="event" value="Summer Party - 3pm, 7th July 2023"></option>
+                <option name="event" value="Half Marathon - 1pm, 15th September 2023"></option>
+                <option name="event" value="Jazz Music Event - 7pm, 12th October 2023"></option>
+                <option name="event" value="Running Club Event - 11am, 15th November 2023"></option>
+                <option name="event" value="Christmas Gathering - 7pm, 20th December"></option>
+                <option name="event" value="January Sponsored Walk - 7pm, 2nd January 2024"></option>
+                <option name="event" value="January Meet-up Event - 10am, 3nd January 2024"></option>
+                
+
+   
+       
+            </datalist>
+
+<!-- 
+            <input  class="btn" type="button" value="Submit Selection"> -->
+
+            <button id="submit" type="submit">Submit Selection</button>
+
+            </div>
+
+            
+ 
+
+</form>
+
+</div>
+
+
+
+
+</body>
+
+
+<script src="script.js"></script>
+</html>
+
+
